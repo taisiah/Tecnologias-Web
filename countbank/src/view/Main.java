@@ -56,8 +56,13 @@ public class Main {
 		
 		currentaccount.printTransactions();
 		savingsaccount.printTransactions();
-			
 		
+		
+		
+		
+		System.out.println("O saldo da conta poupança é: "+ savingsaccount.getBalance());
+		
+		savingsaccount.addtax();
 		
 		System.out.println("O saldo da conta poupança é: "+ savingsaccount.getBalance());
 		

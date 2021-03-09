@@ -22,7 +22,7 @@ public class SavingsAccount extends Account {
 	}
 
 	public double addtax () {
-		super.setBalance(super.getBalance() * tax + super.getBalance());
+		super.setBalance(super.getBalance() * ( tax/100) + super.getBalance());
 		return super.getBalance();
 	}
 
